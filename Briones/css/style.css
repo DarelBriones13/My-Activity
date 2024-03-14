@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sectionOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+}
+.classL{
+    width: 50%;
+    text-align: justify;
+    margin-left: 10rem;
+    
+}
+.classR{
+    margin-right: 10rem;
+}
+.man{
+    width: 400px;
+    height: 400px;
+}
+.title{
+    font-size: 3rem;
+}
+.paragraph{
+    width: 400px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.proj{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 2.5rem;
+    gap: 1em;
+    padding: 0 40px;
+}
+
+.proj-1, .proj-2, .proj-3{
+    width: 25em;
+    height: 25em;
+    padding: 10px 30px;
+}
+
+.proj-image{
+    width: 350px;
+    height: 300px;
+}
+
+.title2{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.5rem;
+}
+
+.para2{
+    text-align: justify;
+    padding: 1.5rem 0;
+}
+button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+}
